@@ -2,7 +2,6 @@
   "name": "adam-booth-portfolio",
   "version": "1.0.0",
   "description": "A portfolio site that displays works created or contributed by Adam Booth",
-  "main": "server.js",
   "scripts": {
     "dev": "nodemon --env-file=.env server.js",
     "start": "node --env-file=.env server.js"
