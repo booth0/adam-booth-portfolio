@@ -4,7 +4,7 @@
   "description": "A portfolio site that displays works created or contributed by Adam Booth",
   "scripts": {
     "dev": "nodemon --env-file=.env server.js",
-    "start": "node --env-file=.env server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Adam Booth",
