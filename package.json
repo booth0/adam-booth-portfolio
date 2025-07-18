@@ -11,9 +11,17 @@
   "license": "ISC",
   "packageManager": "pnpm@10.9.0",
   "dependencies": {
-        "ejs": "^3.1.10",
-        "express": "^5.1.0"
-    },
+    "bcrypt": "^6.0.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^17.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "method-override": "^3.0.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.4"
+  },
   "type": "module",
   "devDependencies": {
     "nodemon": "^3.1.10",
