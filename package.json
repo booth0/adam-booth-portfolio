@@ -2,19 +2,22 @@
   "name": "adam-booth-portfolio",
   "version": "1.0.0",
   "description": "A portfolio site that displays works created or contributed by Adam Booth",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev": "nodemon --env-file=.env server.js",
+    "start": "node --env-file=.env server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Adam Booth",
   "license": "ISC",
   "packageManager": "pnpm@10.9.0",
   "dependencies": {
-    "express": "^5.1.0"
-  },
+        "ejs": "^3.1.10",
+        "express": "^5.1.0"
+    },
+  "type": "module",
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "ws": "^8.18.2"
   }
 }
